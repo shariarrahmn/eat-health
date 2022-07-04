@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .skip-the-diet{
     display:flex;
@@ -30,4 +31,41 @@ body{
     padding: 15px 30px;
     color: white;
     border-radius: 30px;
+}
+.Second-part{
+    margin-top: 100px;
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.girl{
+    width: 50%;
+  
+}
+.girl img{
+    width: 45%;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 0;
+}
+.girl h2{
+    font-size: 50px;
+}
+.wri{
+    padding-top: 100px;
+}
+.recipes{
+    margin-top: 50px;
+   
+}
+.item{
+    display: flex;
+}
+.recipe-item {
+  
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
 }
